@@ -2,9 +2,9 @@ import allure
 from selene import browser, by, be
 from allure_commons.types import Severity
 
+
 @allure.tag('web')
 @allure.feature("Задачи в репозитории")
-@allure.story("Успешная проверка Issue")
 @allure.severity(Severity.CRITICAL)
 @allure.label("owner", "feoktoster")
 @allure.description("Тест для проверки поиска необходимой информации")

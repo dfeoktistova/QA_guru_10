@@ -21,7 +21,5 @@ def test_dynamic_steps():
     with allure.step("Открыть таб Issues"):
         s("#issues-tab").should(be.visible).click()
 
-    time.sleep(20)
-
     with allure.step("Проверить Issue с названием {name}"):
         s(by.partial_text("issue_to_test_allure_report")).should(be.visible)
