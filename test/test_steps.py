@@ -1,5 +1,3 @@
-import time
-
 import allure
 from selene import browser, by, be
 from selene.support.shared.jquery_style import s
